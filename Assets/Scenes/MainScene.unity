@@ -185,7 +185,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -843,7 +843,7 @@ GameObject:
   - component: {fileID: 734303960}
   - component: {fileID: 734303959}
   - component: {fileID: 734303958}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1119,7 +1119,7 @@ GameObject:
   - component: {fileID: 1664314807}
   - component: {fileID: 1664314806}
   - component: {fileID: 1664314805}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1231,6 +1231,7 @@ GameObject:
   - component: {fileID: 1964416682}
   - component: {fileID: 1964416683}
   - component: {fileID: 1964416684}
+  - component: {fileID: 1964416685}
   m_Layer: 0
   m_Name: Player Character
   m_TagString: Untagged
@@ -1312,6 +1313,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec37208c4e7d2a84e82a8dd2a8116400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  speed: 12
+  gravity: 9.8
+  moveAction: {fileID: 5016373609731272733, guid: 9a98f092fb9860949a1c84b5aef357f5, type: 3}
+--- !u!143 &1964416685
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964416680}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
