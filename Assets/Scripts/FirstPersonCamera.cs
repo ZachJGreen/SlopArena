@@ -38,7 +38,7 @@ public class FirstPersonCamera : MonoBehaviour
         cameraPitch = Mathf.Clamp(
             cameraPitch,
             -90f,
-            60f
+            90f
         );
 
         // Looking Up/Down. Don't ask me what a quaternion is, I think it's some physics thing
