@@ -1314,8 +1314,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   speed: 12
-  gravity: 9.8
+  gravity: -9.8
+  jumpPower: 5
   moveAction: {fileID: 5016373609731272733, guid: 9a98f092fb9860949a1c84b5aef357f5, type: 3}
+  jumpAction: {fileID: -8371655484947456005, guid: 9a98f092fb9860949a1c84b5aef357f5, type: 3}
 --- !u!143 &1964416685
 CharacterController:
   m_ObjectHideFlags: 0
